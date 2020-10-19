@@ -26,9 +26,7 @@ class BankAccount
     @balance
   end
 
-  def valid?
-BankAccount.all.detect {|account| account.name == sender}.valid? && BankAccount.all.detect {|account| account.name == receiver}.valid?
-end
+
     
   def close_account
     @status = "closed"
