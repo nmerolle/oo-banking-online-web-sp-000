@@ -30,7 +30,7 @@ class BankAccount
     status == "open" && balance > 0 
   end
   
-  def close_account
+  def self.close_account
     self.status = "closed"
   end
   
