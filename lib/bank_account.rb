@@ -6,4 +6,7 @@ class BankAccount
     @name = name
     @balance = balance
     @status = status
+  end
+  
+  
 end
