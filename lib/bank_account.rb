@@ -28,6 +28,4 @@ class BankAccount
     (status == 'open') && (balance > 0)
   end
 
-
-  end
 end
