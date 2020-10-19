@@ -28,7 +28,7 @@ class BankAccount
     (!!status == 'open') && (!!balance > 0)
   end
 
-def account_hash
+  def account_hash
     instance_variables.map do |var|
         [var[1..-1].to_sym, instance_variable_get(var)]
     end.to_h
