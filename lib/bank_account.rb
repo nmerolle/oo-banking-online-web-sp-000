@@ -30,7 +30,7 @@ class BankAccount
   def valid?
     
    balance > 0 && status == "open" 
-   
+   binding.pry
   end
     
   def close_account
