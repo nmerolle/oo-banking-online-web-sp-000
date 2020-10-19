@@ -8,6 +8,8 @@ class Transfer
     @amount = amount
     @status = status
   end
+  
+  
 
   def valid?
     sender.valid? && receiver.valid?
